@@ -10,7 +10,7 @@ const projects = [
     image: "/projects/skillpath.png",
     tags: ["React", "TailwindCSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sonam10115/education-webpage",
   },
 
   {
@@ -21,7 +21,7 @@ const projects = [
     image: "/projects/cara.png",
     tags: ["HTML", "CSS", "javascript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sonam10115/cara-clone",
   },
 
   {
@@ -32,7 +32,7 @@ const projects = [
     image: "/projects/infoshard.png",
     tags: ["HTML", "CSS", "Bootstrap"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sonam10115/infoshard_webpage",
   },
 
   {
@@ -42,7 +42,17 @@ const projects = [
     image: "/projects/amazon.png",
     tags: ["HTML", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sonam10115/amazon_clone_page",
+  },
+
+  {
+    id: 5,
+    title: "job portal",
+    description: "Build a job portal webpage using MERN stack. ",
+    image: "/projects/job-portal.png",
+    tags: ["React", "node.js", "MongoDB", "Express"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/sonam10115/job_portal",
   },
 ];
 export const ProjectSection = () => {
